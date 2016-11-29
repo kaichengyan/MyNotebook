@@ -1,6 +1,8 @@
 
 # CSE 143 Exam Reminders
 
+Kyle Yan
+
 ## General 
 
 - Check **`=`** signs (`<` vs `<=`, `>` vs `>=`).
@@ -19,7 +21,7 @@
 ## `Stack`s and `Queue`s
 
 - **DRAW DIAGRAMS!**
-- Always check whether a stack/queue **is empty** before peeking/popping/"element-ing"/removing.
+- Always check whether a stack/queue **`isEmpty()`** before `peek()`-ing/`pop()`-ping/`remove()`-ing.
 - Sometimes repeated action (`while`) is needed (`if` might not be enough, see *expunge*).
 - Use **Generics**! 
 
