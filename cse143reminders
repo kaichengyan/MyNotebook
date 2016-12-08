@@ -31,6 +31,8 @@ Kyle Yan
 - In linked lists, set the next of the last element to **null**.
 - In linked lists, remember to write **`curr = curr.next;`** .
 - When using `while (curr.next != null)`, remember to check **the first node**. 
+- Start editing from the **previous node** of the node to change! 
+- Deal with **the front node** separately (but similarly)! 
 
 ## `Set`s and `Map`s
 
@@ -65,3 +67,7 @@ Kyle Yan
 ## Binary Trees
 
 - Check if `overallRoot == null` when necessary! 
+
+## Collection Mystery
+
+- Be careful about the order of the elements! (`TreeMap`s and `TreeSet`s). 
