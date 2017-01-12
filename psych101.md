@@ -176,7 +176,7 @@ Must replicate experiment using different populations to apply findings to diffe
 * Experimenter expectancy effect: unintended changes in participants behavior due to cues inadvertently given by the experimenter (mitigation: double-blind procedure, neither the experimenter nor participants know who is in what group)
 * Placebo effect: when a participant's response to a treatment is due to/her expectations about the treatment rather than to treatment itself (mitigation: placebo: an inert substance or fake treatment used as a control in an experiment)
 
-## Brain and behavior
+## Brain and Behavior
 
 ### Cells of the Nervous System
 
@@ -191,7 +191,6 @@ Dendrites -> soma -> axon -> axon terminals.
 * Supply nutrients to neurons (astrocytes)
 * Agents of the immune system (Microglia)
 * Form myelin that aids neuronal transmission (Schwann cells and oligodendrocytes)
-
 
 ### Nerve Impulse
 
@@ -252,7 +251,7 @@ NT reabsorption and deactivation.
 	* Thalamus 丘脑 -- receives info from all senses (EXCEPT for smell) and relays it to other parts of the brain. 
 	* Hypothalamus 下丘脑 -- controls release of some hormones, influences drive states, helps regulate emotion, body temperature, and sensations of pleasure. 
 	* Amygdala 杏仁核 -- involved in emotion: aggression, rage and fear. 
-	* Hippocampus 海马体 -- plays a role in memory formation. Damage causes disability to form NEW memory. 
+	* Hippocampus 海马体 -- plays a role in memory formation. Damage causes inabilityto form NEW memory. 
 	* Cerebral cortex 大脑皮质 -- perception and higher mental processes
 
 ### Cerebral Cortex 
@@ -269,11 +268,71 @@ Four lobes
 
 * frontal lobe
 * parietal lobe
-* occiptal lobe
+* occipital lobe
 * temporal lobe 
 
 #### Cortical organization
 
-* Functional specialization -- Different areas of the cortex serve different functions.
+* Functional specialization: different areas of the cortex serve different functions.
 * Topographic organization: for sensory/motor areas, adjacent neurons receive input from adjacent portions of sensory/muscle tissue. 
-* Contralateral connections: each hemisphere is responsible for sensory/motor control of the opposite side of the body. 
+* Contralateral connections: each hemisphere is responsible for sensory/motor control of the opposite side of the body. "Corpus Callosum": bundle of axons that connects the two hemispheres. 
+* Hemispheric laterization: the two hemispheres have slightly different functions. 
+	* Right hemisphere: primarily processes visual spatial information, is involved in holistic processing, and in recognizing and expressing emotion. 
+	* Left hemisphere: processes language, sequential logical thinking, concerned with details. 
+
+#### Lobes of the cerebral cortex
+
+* **Frontal lobe 额叶**: involved in working memory, movement, speech and language production, judgment and planning, and personality. 
+	* Motor cortex: at the back of the frontal lobe; controls fine motor movements; each part of the motor cortex controls a different part of the body. 
+	* Broca's area: involved in language production; damage leads to Broca's aphasia (slow, effortful speech that is meaningful, but ungrammatical)
+* **Parietal lobe 顶叶**: specializes in processing information from the body's senses (touch, pain, temperature, awareness of body in space, etc.); involved in attention
+	* Sensory cortex: at the front of the parietal lobe; contains neurons that are sentitive to touch in different parts of the body. 
+	* Damage might cause unilateral neglect: the neglect of the opposite side of the body and the opposite side of the world. A problem with attention. 
+* **Occipital lobe 枕叶**: specializes in processing visual information; different areas of the occipital lobe contribute to different aspects of vision. 
+	* Damage might cause motion blindness: inability to see motion. 
+* **Temporal lobe 颞叶**: involved processing auditory information, language comprehension, and complex aspects of vision. 
+	* Primary auditory cortex: at the top of the temporal lobe.
+	* Wernicke's area: behind the primary auditory cortex; responsible for the semantic aspects of language; damage results in Wernicke's aphasia (inability to comprehend language). 
+	* Visual Agnosia: set of disorders where patients can't interpret visual information correctly. Prosopagnosia: inability to recognize faces. 
+
+## Sensation and Perception
+
+### Definitions
+
+* Sensation: the process by which the senses detect sensory stimuli and transmit them to the brain. 
+* Perception: the process by which sensory information is actively organized and interpreted by the brain. 
+
+### How do sensory systems work?
+
+* **Transduction 转导**
+	* The conversion of one energy form to another. Sensory stimulus -> neural impulse. 
+	* Receptor cells: specialized cells that respond to a specific physical stimulus, and are responsible for transduction. 
+* **Sensory Adaptation 感觉适应**
+	* The diminished sensitivity to prolonged stimulation. 
+	* Adaptation of one stimulus can affect the perception of another. 
+	* Allows us to shift our attention to what is important.
+* **Sensory Deprivation 感官剥夺**
+	* The absence of normal external simulation for extended periods of time. 
+
+### Vision
+
+Visual Pathway: Light -> Photoreceptors (rods/cones) -> Bipolar cells 双极细胞 -> Ganglion cells 神经节细胞 -> Optic nerve (blind spot) -> Thalamus 丘脑 -> Visual cortex 视觉皮质 (occipital lobe 枕叶)
+
+**Differences between rods and cones:**
+
+* Shape (cylindrical vs short, fat, tapered at one end)
+* Prevalence (90-95% vs 5-10%)
+* Location (toward periphery vs toward the center)
+	* Fovea: Area near center of retina that contains only cones and is responsible for most detailed vision
+* Perception of detail (weak vs strong) 
+* Sensitivity to color (no vs yes)
+* Response to dim light (strong vs weak)
+	* Dark adaptation: eye's increasing ability to see in dim light. Due to pupil dilation and recombination of rhodopsin in the rods. 
+
+#### Color vision
+
+**Trichromatic theory 三色说**: Color perception depends on 3 receptors, each senstive to different wavelengths:
+
+1. Sensitive to short wavelengths (blue)
+2. Sensitive to medium wavelengths (green)
+3. Sensitive to long wavelengths (red)
