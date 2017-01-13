@@ -316,7 +316,7 @@ Four lobes
 
 ### Vision
 
-Visual Pathway: Light -> Photoreceptors (rods/cones) -> Bipolar cells 双极细胞 -> Ganglion cells 神经节细胞 -> Optic nerve (blind spot) -> Thalamus 丘脑 -> Visual cortex 视觉皮质 (occipital lobe 枕叶)
+Visual Pathway: light -> photoreceptors (rods/cones) -> bipolar cells 双极细胞 -> ganglion cells 神经节细胞 -> optic nerve (blind spot) -> thalamus 丘脑 -> visual cortex 视觉皮质 (occipital lobe 枕叶)
 
 **Differences between rods and cones:**
 
@@ -329,6 +329,8 @@ Visual Pathway: Light -> Photoreceptors (rods/cones) -> Bipolar cells 双极细�
 * Response to dim light (strong vs weak)
 	* Dark adaptation: eye's increasing ability to see in dim light. Due to pupil dilation and recombination of rhodopsin in the rods. 
 
+### Sensation: Color vision and audition
+
 #### Color vision
 
 **Trichromatic theory 三色说**: Color perception depends on 3 receptors, each senstive to different wavelengths:
@@ -336,3 +338,36 @@ Visual Pathway: Light -> Photoreceptors (rods/cones) -> Bipolar cells 双极细�
 1. Sensitive to short wavelengths (blue)
 2. Sensitive to medium wavelengths (green)
 3. Sensitive to long wavelengths (red)
+
+**Opponent process theory 对立过程说**: Posits 6 primary colors that are complementary to one another. The color pairs are linked in the brain by 3 "opponent systems" (types of cells).
+
+* Red/Green cells, red increases & green decreases, vice versa. 
+* Yellow/Blue cells, yellow increases & blue decreases, vice versa. 
+* White/Black cells, white increases & black decreases, vice versa. 
+
+**Color blindness**: Color deficiency (affects men more than women)
+
+1. Trichromats: People who can perceive all 3 primary colors and distinguish any hue (normal color vision)
+2. Dichromats: People who can distinguish 2 of the 3 primary colors. 
+3. Monochromats: Total color blindness. Can't distinguish any color. 
+
+Ishihara test. 
+
+#### Audition
+
+Auditory pathway: sound wave -> eardrum 鼓膜 -> ossicles 听小骨 -> cochlea 耳蜗 (basilar membrane 基膜, cilia/hair cells) -> auditory nerve -> thalamus 丘脑 -> auditory cortex (temporal lobe).
+
+**Pitch perception**
+
+* Place theory: pitch perception depends on the area of the basilar membrane that vibrates the most. 
+* Frequency theory: for low frequency tones, the basilar membrane vibrates at the same frequency as the original sound and sends that information to the brain. 
+
+**Sound localization**
+
+* Interaural time difference: if a sound is to either side of center, sound waves reach one ear slightly before they reach the other ear. 
+* Inte-raural intensity difference: if a sound is to either side of the center, the sound will be perceived as louder for the ear nearest the sound origins. 
+
+#### Illusions: McGurk Effect
+
+* Demonstrates the interaction between hearing and vision in speech perception. 
+* Illustrates that our perceptions of sensory input are not always accurate. 
