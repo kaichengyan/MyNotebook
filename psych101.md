@@ -3,11 +3,11 @@
 
 ## History of Psychology and Psychological Perspectives
 
-### Major issues in psych
+### Major issues in psychology
 
 #### Nature vs Nurture
 
-* Are behavioral diff due to biology or environment?
+* Are behavioral difference due to biology or environment?
 * Consensus: All behavior depends on both. 
 * Genetics -> Potential
 * Environment -> Outcome
@@ -42,7 +42,7 @@
 #### Functionalism (William James)
 
 * Goals / Emphasis
-	* Discover how the mind functions to help us adapt to our env.
+	* Discover how the mind functions to help us adapt to our environment.
 	* To study phenomena in real life situation. 
 
 #### Behavioral Perspective (Watson / Skinner)
@@ -129,7 +129,7 @@ The use of questionnaires and interviews to gather information about people's ex
 	* Can't determine causation
 	* People may not be truthful in their answers
 
-#### Correlational research
+### Correlational research
 
 Determines the degree of relationship between two factors and how well each factor predicts the other. 
 
@@ -219,7 +219,7 @@ NT reabsorption and deactivation.
 
 * **Acetylcholine 乙酰胆碱**: Found in the CNS and peripheral NS and is involved in: movement, learning and memory, Alzheimer's disease. 
 * **Dopamine 多巴胺**: Primary neurotransmitter involved in: reward circuits (food, sex, drugs), fine motor control (Parkinson's disease), cognition/emotion (Schizopherenia). 
-* **Norepinephrine 去甲肾上腺素**: Primary neurotransmitter involved in: "fight-or-flight" response, 
+* **Norepinephrine 去甲肾上腺素**: Primary neurotransmitter involved in: "fight-or-flight" response.
 * **Serotonin 血清素**: Neurotransmitter involved in: sleep and arousal, appetite regulation, pleasure and pain (too little -> depression). 
 * **Endorphins 内啡肽**: produced by pituitary gland and hypothalamus. Natural opiates that are released in response to pain and vigorous exercise. 
 
@@ -371,3 +371,9 @@ Auditory pathway: sound wave -> eardrum 鼓膜 -> ossicles 听小骨 -> cochlea 
 
 * Demonstrates the interaction between hearing and vision in speech perception. 
 * Illustrates that our perceptions of sensory input are not always accurate. 
+
+### Perception: Interpreting sensory information
+
+* **Perceptual Adaptation**: in vision, this refers to our ability to adjust to an artificially displaced or inverted visual field. 
+* **Perceptual Set**: When our experiences, assumptions and expectations greatly influence what we perceive. 
+
