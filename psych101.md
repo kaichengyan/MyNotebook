@@ -376,4 +376,23 @@ Auditory pathway: sound wave -> eardrum 鼓膜 -> ossicles 听小骨 -> cochlea 
 
 * **Perceptual Adaptation**: in vision, this refers to our ability to adjust to an artificially displaced or inverted visual field. 
 * **Perceptual Set**: When our experiences, assumptions and expectations greatly influence what we perceive. 
+* **Perceptual Habits**: Learned patterns of attention and organization; knowing what to expect and where to look. 
+
+**Perceptual Constancies**: Perceptual constancies allow us to perceive objects as having stable properties. 
+
+* Size constancy: When the perceived size of an object stays the same even when there's a change in distance between object and viewer. 
+* Shape constancy: An object's perceived shape remains the same even though the object changes its orientation toward the viewer.
+* Color constancy: An object's perceived color remains the same even when lighting conditions change.
+
+#### Perceptual Organization
+
+* **Figure Ground Organization**: The organization of visual info into object (figure) that stand out from the surrounding background.
+* **Gestalt Principles of Organization**
+	* Proximity: Tendency to perceive objects that are close together as belonging together. 
+	* Similarity: Tendency to perceive objects that resemble each other as forming a group.
+	* Continuity: Tendency to perceive smooth continuous lines instead of discontinuous fragments. 
+	* Closure: Tendency to "fill in" elements that are missing from the outline of a figure. 
+	* Contiguity: Tendency to perceive objects that are near in *time and space* as belonging together. 
+	* Common Region: Objects that are found within a common region are grouped together. 
+	* Common Fate: Tendency to perceive elements that move together as belonging together and forming a group. 
 
