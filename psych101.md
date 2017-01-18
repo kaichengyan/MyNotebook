@@ -396,3 +396,40 @@ Auditory pathway: sound wave -> eardrum 鼓膜 -> ossicles 听小骨 -> cochlea 
 	* Common Region: Objects that are found within a common region are grouped together. 
 	* Common Fate: Tendency to perceive elements that move together as belonging together and forming a group. 
 
+#### Depth Perception and Visual Illusions
+
+**Depth Perception**
+
+* Binocular Depth Cues
+	* Convergence: Eyes turn inward when they focus on nearby objects. The closer the object, the greater the convergence.
+	* Retina Disparity: Slight difference between viewpoints of the two eyes. The closer the object, the greater the retinal disparity. 
+* Monocular Depth Cues
+	* Accommodation: The bending of the lens to focus on nearby objects. 
+	* Pictorial Depth Cues: 
+		* Linear Perspective: Parallel lines appear to converge at a distance. 
+		* Relative Size: If two similar sized objects appear together, the one with the larger retinal image will be perceived as closer than the one with the smaller retinal image. 
+		* Relative Height: We perceive objects that are near the horizon as being farther from the viewer. 
+		* Light and Shadow: You can distinguish bulges from indentations by the shadows they cast. 
+		* Interposition (overlap): When one object partly blocks your viewer of another, the one that is blocked is perceived as being farther away. 
+		* Texture Gradient: Near objects appear to have sharply defined textures, whereas similar objects look smoother in the distance. 
+		* Aerial Perspective: Distant objects often look hazy in the distance. 
+		* Relative Motion (Motion Parallax): As we pass a scene objects closest to us seem to move in the opposite direction and faster than those farther away. 
+
+**Optical Illusions**
+
+* Mueller-Lyer Illusion: `>----<` vs `<---->`.
+	* Architecture?
+	* This illusion may be culturally specific. 
+	* Provides evidence that our exp and learning have a profound influence on perception. 
+* Ponzo Illusion: 
+	
+	* The retinal images of the two lines are the same size, but the distance cue tells you that the one on the top is larger.
+```no-highlight
+  / ----- \
+ /         \
+/   -----   \
+Ponzo Illusion.
+```
+
+In general , illusions result from the over-application of perceptual constancies in the face of conflicting distance cues. 
+
