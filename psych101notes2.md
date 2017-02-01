@@ -335,3 +335,108 @@ Observational learning focuses on the role of thought in establishing and mainta
 
 Confirmed that people learn through observing and imitating the behavior of others. 
 
+Imitation is dependent on the consequences of the behavior modeled. Aggressive behavior is NOT imitated if model is punished. 
+
+**Components of Observational Learning**
+
+* **Vicarious reinforcement**: Reinforcement which is received indirectly by observing another person being reinforced.
+* **Vicarious punishment**: Punishment which is received indirectly by observing another person being punished.
+* **Intrinsic reinforcement**: An internalized sense of satisfaction when one performs well. 
+* **Intrinsic punishment**: Punishing oneself for a poor performance. 
+
+**Modeling and Television: Tannis Williams' Study**
+
+* Reading development among children declined. 
+* Children's scores on tests of creativity dropped. 
+* Children's perceptions of sex roles became more stereotyped. 
+* There was an increased tendency toward both physical and verbal aggression.
+
+## Memory
+
+### Three memory processes
+
+* Encoding: Information is coded and put into memory. 
+* Storage: Retention of encoded information.
+* Retrieval: Stored information is recovered from memory. 
+
+### Three memory stores
+
+* Sensory memory:
+* Short-term meory
+* Long-term memory
+
+Incoming Info 
+|
+sensory memory  -  not attended - forgotten
+|
+selective attention 
+|
+short-term memory  -  not encoded - forgotten
+|
+transfer/retrieval rehearsal buffer
+|
+long-term memory - retrieval failure - forgotten
+                              
+#### Sensory memory
+
+* Function
+	* holds info that enters the senses for a short time while we select what is important
+	* Iconic storage: visual sensory memory (<1s)
+	* Echoic storage: auditory sensory memory 
+* Capacity
+	* Large capacity
+* Duration
+	* Fades quickly
+	* 1/4 - 1/2 second for iconic memory; 2-3 seconds for echoic memory. 
+
+#### Short term memory (Working memory)
+
+* Function 
+	* pass
+* Capacity
+	* Very small capacity.
+	* STM span = $7 \pm 2$ items
+	* **Chunking**: Grouping information into smaller more meaningful units. Allows us to overcome the limits of STM
+* Duration
+	* Info remains for less than 30 seconds if not rehearsed
+* How is information retained in STM?
+	* Maintenance rehearsal 
+		* Repeat info to keep it from fading while in STM. 
+		* Involves NO elaboration or interpretation.
+	* Elaborative rehearsal
+		* Information is actively reviewed and related to information already in LTM. 
+
+#### Long term memory
+
+* Function
+	* Stored representation of all that a person knows.
+	* Information remains dormant until retrieved into STM. 
+	* Information is stored semantically. 
+* Capacity
+	* Unlimited
+* Duration
+	* Information can be stored for a lifetime. 
+* Types
+	* Procedural (implicit) memory ("knowing how"): Memory for perceptual, motor, and cognitive habits and skills. Automatic processing.
+	* Declarative (explicit) memory
+		* Semantic memory (General knowledge): mental dictionary and encyclopedia. 
+		* Episodic memory (Personal recollections): autobiographical memory. 
+		
+#### Factors that affect memory
+
+* Serial position curve
+	* Primacy effect: refers to the greater recall of items that were presented first in a list of items. We have greater time to rehearse items. Information gets transferred to LTM. 
+	* Recency effect: refers to the greater recall of items that were presented last in a list of items. Information is still in STM. 
+* Von Restorff Effect
+	* The more accurate recall of items that are sallient, distinctive, and unusual. 
+	* Flashbulb memory: Very vivid memory of an important event that caused an intense emotional reactions; emotional distinctiveness.
+* Constructive nature of memory
+	* Putting together an account of past events based partly on memories and partly on expectations of what must have happened. 
+	* Loftus and Palmer Study: Misinformation effect.
+		* How does post-event information influence a person's recall of an event? 
+		* Shown video and manipulated wording of questions about an accident?
+			* How fast were cars going when they *made contact with* each other?
+			* How fast were cars going when they *smashed into* each other? 
+		* Post-event information has powerful effect on memory. 
+
+bed night clock alarm toss mattress insomnia dream pillow tired snore [artichoke]
