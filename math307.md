@@ -3,13 +3,21 @@
 
 ## Chapter 2: First order DEs
 
+### 2.1 First order linear DEs
+
+Multiply both sides of DE $y'+p(t)y=g(t)$ by the integration factor: $\mu (t)=\exp{\int p(t)dt}$. Then we have $(\mu(t)y)'=g(t)\mu(t)$. Integrate both sides to find $y$.
+
+### 2.2 Separable DEs
+
+$f(y)dy=g(t)dt$. Integrate both sides to find $y$.
+
 ### 2.3 Applications
 
 Key ingredient: derivatives = rate of change
 
 #### Falling object (2.3 HW: 20, 21, 26)
 Newton’s 2nd law: $F=ma$, specially, $G=mg, g=9.8m/s^2$.
-Example Consider object of $m=10kg$ falling from the top of a building of height $h=100m$. Then the object is subject to gravity and air resistance, which is proportional to the velocity of the object with constant: $f=\gamma v, \gamma=2 kg/s$. 
+**Example** Consider object of $m=10kg$ falling from the top of a building of height $h=100m$. Then the object is subject to gravity and air resistance, which is proportional to the velocity of the object with constant: $f=\gamma v, \gamma=2 kg/s$. 
 
 1)	Find the differential equation for the velocity $v$ of the object. 
 2)	Assume that the object is initially at rest. Find the velocity at time $t=1s$. 
@@ -346,4 +354,103 @@ $$y''+p(t)y'+q(t)y=g(t)$$
 * The initial value problem needs two conditions: $y(t_0)=y_0,y'(t_0)=y_0'$. 
 
 In chapter 3, we basically study constant coefficient 2nd order linear DEs. Section 3.1-3.4 are for homogeneous equations; Section 3.5-3.6 are for non-homogeneous equations; Section 3.7-3.8 are for applications. 
+
+### 3.1 Homogeneous equation with constant coefficients
+
+$$ay''+by'+cy=0(*)$$
+
+We look for solutions of the form $y=e^{rt}(**)$, where $r$ is a constant. To find $r$, we plug $(**)$ into $(*)$.
+
+$$\begin{align}
+a(e^{rt})''+b(e^{rt})'+ce^{rt}&=0\\
+ar^2e^{rt}+bre^{rt}+ce^{rt}&=0\\
+e^{rt}(ar^2+br+c)&=0\\
+ar^2+br+c&=0
+\end{align}$$
+
+$ar^2+br+c=0$ is called the characteristic equation. To find $r$, we have 3 cases. 
+
+$$\Delta=b^2-4ac
+\begin{cases}
+\gt 0 \implies \text{(3.1) 2 real solutions } \frac{-b\pm\sqrt{\Delta}}{2a}\\
+=0 \implies \text{(3.4) 2 repeated real solutions } -\frac{b}{2a}\\
+\lt 0 \implies \text{(3.3) 2 complex solutions } \frac{-b\pm i\sqrt{-\Delta}}{2a}
+\end{cases}$$
+
+Suppose we have 2 distinct real roots $r_1,r_2$ for the characteristic equation, then we have 2 solutions $y_1=e^{r_1t}, y_2=e^{r_2t}$ for $ay''+by'+cy=0$. It is easy to verify that $y=c_1e^{r_1t}+c_2e^{r_2t}$ is also a solution for any $c_1, c_2$. This is called the general solution. 
+
+**Example** Find the general solution of $y''-7y'+10y=0$.
+
+Characteristic equation: $r^2-7r+10=0$. Roots: $r_1=2, r_2=5$. So we have $y_1=e^{2t}, y_2=e^{5t}$. Thus we have the general solution: $y=c_1e^{2t}+c_2e^{5t}$.
+
+**Example** 
+
+**1. Find the solution to the initial value problem $y''+5y'+6y=0, y(0)=2, y'(0)=3$.**
+
+Characteristic equation: $r^2+5r+6=0\implies r_1=-2, r_2=-3$. The general solution: $y=c_1e^{-2t}+c_2e^{-3t}$. 
+
+We use the initial values to find $c_1, c_2$. 
+
+$$y'(t)=-2c_1e^{-2t}-3c_2e^{-3t}$$
+
+\begin{cases}
+y(0)=2 \implies 2=c_1+c_2\\
+y'(0)=3 \implies 3=-2c_1-3c_2
+\end{cases}
+
+Solve for $c_1, c_2$. 
+
+\begin{cases}
+c_1=9\\
+c_2=-7
+\end{cases}
+
+$$\implies y=9e^{-2t}-7e^{-3t}$$
+
+**2. Determine $\lim_{t \to \infty}y(t)$.**
+
+Note that 
+
+$$\lim_{t\to\infty}e^{rt}=
+\begin{cases}
++\infty, r>0\\
+1, r=0\\
+0, r<0
+\end{cases}$$
+
+Notice that the general solution is a combination of $e^{rt}$. So $\lim_{t\to\infty}y(t)=0$.
+
+**3. Find the maximum of $y(t)$.**
+
+Set $y'(t)=0$. Find the critical point. 
+
+\begin{align} y'(t)=-18e^{-2t}+21e^{-3t}&=0\\
+\frac{21}{18}&=e^{t}\\
+t&=\ln\frac{21}{18}\\
+t&=\ln\frac{7}{6}\\
+\end{align}
+
+So the maximum is achieved at $t=\ln\frac76$, and the value is $y(\ln\frac76)$.
+
+### 3.2 Solutions to linear homogeneous DEs
+
+We consider non-constant coefficient DEs: 
+
+$$y''+p(t)y'+q(t)=0$$
+
+#### Existence and uniqueness of solutions
+
+> **Theorem 3.2.1** Consider IVP $y''+p(t)y'+q(t)y=0, y(t_0)=y_0, y'(t_0)=y_0'$. If $p(t)$ and $q(t)$ are continuous on interval $I$ containing $t_0$, there's a unique solution for the IVP on $I$. 
+
+**Example** Find the largest interval for which solution is defined: $(t^2-3t)y''+ty'-(t+3)y=0, y(1)=2, y'(1)=1$. 
+
+$$y''+\frac{1}{t-3}y'-\frac{t+3}{t^2-3t}y=0$$
+
+
+
+**Superposition principle: Theorem 3.2.2**
+
+**General solution (we can find all solutions): Theorem 3.2.3 and 3.2.4**
+
+**Find the Wronskian: Theorem 3.2.7**
 
