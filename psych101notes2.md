@@ -438,5 +438,17 @@ long-term memory - retrieval failure - forgotten
 			* How fast were cars going when they *made contact with* each other?
 			* How fast were cars going when they *smashed into* each other? 
 		* Post-event information has powerful effect on memory. 
+		* Memory is highly flexible and malleable. 
 
 bed night clock alarm toss mattress insomnia dream pillow tired snore [artichoke]
+
+#### Forgetting
+
+* **Encoding failure**: forgetting that is due to never having entered the information into memory in the first place. 
+* **Storage failure**
+	* Decay:
+		* When a memory trace fades with time
+		* This usually occurs in sensory memory and short term memory
+	* Disuse:
+		* "Use it or lose it" principle: applies to long term memory
+	
