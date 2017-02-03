@@ -32,7 +32,7 @@ A state of clear, organized alertness.
 **Stages:**
 
 * NREM - quiet sleep
-	* Stage 1: Show irregular brain waves (theta) and alpha. 
+	* Stage 1: Show irregular brain waves **(theta) and alpha**. 
 		* Wake up easily.
 		* Experience hallucinations: dream-like images.
 		* Hypnic jerk: body twitches as one falls asleep. 
@@ -40,8 +40,9 @@ A state of clear, organized alertness.
 	* Stage 2: Brain waves slow and show sleep spindles.
 		* More difficult to awaken. 
 		* Lasts about 20 minutes. 
+		* **K complex**.
 	* Slow Wave Sleep (SWS Stages 3&4)
-		* Brain waves show large proportion of delta waves. (0-4 Hz)
+		* Brain waves show large proportion of **delta waves**. (0-4 Hz)
 		* Skeletal muscles relax and person difficult to awaken. 
 		* Lasts about 20-25 minutes.
 		* Release of growth hormones and restores body. 
@@ -126,8 +127,8 @@ The older we get, the less we sleep and less time is spent in REM and slow wave 
 	* REM vs NREM Dreams
 		* NREM dreams: more thought-oriented and less visual imagery, associated with more positive emotions
 		* REM dreams: more bizarre, more visual imagery, more narrative, action-oriented, and are associated with negative emotions. 
-		* Lucid dreams: occur during REM and involve the dreamer becoming aware that he/she is dreaming. Can be intentionally induced. Brain areas not typically active during REM are active during lucid dreaming (prefrontal cortex).
-		* Nightmares: occur during REM, easily remembered, triggered by stress and traumatic event. Often occur late at night during the longest period of REM. 
+			* Lucid dreams: occur during REM and involve the dreamer becoming aware that he/she is dreaming. Can be intentionally induced. Brain areas not typically active during REM are active during lucid dreaming (prefrontal cortex).
+			* Nightmares: occur during REM, easily remembered, triggered by stress and traumatic event. Often occur late at night during the longest period of REM. 
 * Dream Content
 	* Focus on events and people we come in contact with.
 	* Reflect our daytime experiences and our emotional state. 
@@ -373,7 +374,7 @@ selective attention
 |
 short-term memory  -  not encoded - forgotten
 |
-transfer/retrieval rehearsal buffer
+transfer/retrieval, rehearsal buffer
 |
 long-term memory - retrieval failure - forgotten
                               
@@ -422,7 +423,7 @@ long-term memory - retrieval failure - forgotten
 		* Semantic memory (General knowledge): mental dictionary and encyclopedia. 
 		* Episodic memory (Personal recollections): autobiographical memory. 
 		
-#### Factors that affect memory
+### Factors that affect memory
 
 * Serial position curve
 	* Primacy effect: refers to the greater recall of items that were presented first in a list of items. We have greater time to rehearse items. Information gets transferred to LTM. 
@@ -442,7 +443,7 @@ long-term memory - retrieval failure - forgotten
 
 bed night clock alarm toss mattress insomnia dream pillow tired snore [artichoke]
 
-#### Forgetting
+### Forgetting
 
 * **Encoding failure**: forgetting that is due to never having entered the information into memory in the first place. 
 * **Storage failure**
@@ -451,4 +452,34 @@ bed night clock alarm toss mattress insomnia dream pillow tired snore [artichoke
 		* This usually occurs in sensory memory and short term memory
 	* Disuse:
 		* "Use it or lose it" principle: applies to long term memory
-	
+* **Retrieval failure**
+	* Interference: can occur in both STM and LTM
+		* Retroactive interference: tendency of new memories to interfere with the retrieval of old memories. 
+		* Proactive interference: tendency of old memories to interfere with the retrieval of new memories.
+		* More similar the information, greater the interference.
+		* How can you reduce interference?
+			* Spread out your study time. 
+			* Sleep in between study sessions.
+			* Avoid cramming. 
+	* Cue dependent forgetting: inability to retrieve info stored in memory because of insufficient cues for recall. Due to context-dependent memory. 
+		* *Encoding specificity principle*: the effectiveness of a retrieval cue depends on how well it relates to the initial encoding of the item. 
+		* *State dependent memory*: the mmore accurate recall of info learned in a particular physiological state when once again in that same state. 
+			* Drugs and alcohol
+			* Time of day
+			* Moods
+			* Mental illness
+		* How can you use this knowledge to help you study?
+			* Try not to study the information in the same order each time (creating a strong cue dependence in retrieval).
+			* Try to study during the same time of day that the exam will be administered. 
+			* Use some of the features of the classroom as retrieval cues. 
+* **Amnesia**: The inability to remember info, usually as a result of physiological damage of the brain. 
+	* Retrograde amnesia: inability to remember events that occurred before the onset of amnesia. (retrieval failure)
+	* Anterograde amnesia: inability to form new memories. (encoding and storage failure).
+		* Results from damage to the hippocampus. 
+		* Damage affects declarative memory, but not procedural memory. 
+	* Korsakoff's Syndrome
+		* Includes both retrograde and anterograde amnesia
+		* Associated with alcoholism and severe malnutrition
+		* Due to thiamine deficiency, which causes shrinkage of several brain structures including the frontal lobe. 
+		* Prone to confabulations. 
+		* 
