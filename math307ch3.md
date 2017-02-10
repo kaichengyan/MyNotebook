@@ -202,31 +202,151 @@ $$y=c_1e^{\lambda t}\cos \mu t+c_2e^{\lambda t}\sin \mu t$$
 
 **Example** Solve $y''+y'+\frac{37}{4}y = 0, y(0)=2, y'(0)=8$. 
 
-The characteristic equation $r^2+r+\frac{37}{4}. $ $\Delta=36<0$. 
+The characteristic equation is $r^2+r+\frac{37}{4}$.
 
-\begin{align}
-r_1=-\frac{1}{2}+3i&, r_2=\frac{1}{2}-3i \\
-\lambda=-\frac{1}{2}&, \mu=3
-\end{align}
+$$
+r_1=-\frac{1}{2}+3i, r_2=\frac{1}{2}-3i \\
+\lambda=-\frac{1}{2}, \mu=3
+$$
 
 The general solution is 
 \begin{align}
-y&=c_1e^{-\frac 12 t}\cos 3t+c_2e^{-\frac{1}{2}t}\sin 3t \\
-&= e^{-\frac 12 t}(c_1\cos 3t + c_2\sin 3t)
+y&=c_1e^{-\frac{1}{2} t}\cos{3t}+c_2e^{-\frac{1}{2}t}\sin{3t} \\
+&= e^{-\frac{1}{2} t}(c_1\cos{3t} + c_2\sin{3t})
 \end{align}
 
 To find $c_1, c_2$, use the initial conditions. 
 
 \begin{align}
 y(0)&=c_1+0=2\\
-\because y'(t)&=-\frac 12e^{-\frac 12 t}(c_1\cos 3t + c_2\sin 3t) + e^{-\frac 12 t}(-3c_1\sin 3t + 3c_2\cos 3t)\\
-& = -\frac{1}{2}y(t)+e^{-\frac 12 t}(-3c_1\sin 3t + 3c_2\cos 3t). \\
+\because y'(t)&=-\frac{1}{2}e^{-\frac{1}{2} t}(c_1\cos{3t} + c_2\sin{3t}) + e^{-\frac{1}{2} t}(-3c_1\sin{3t} + 3c_2\cos{3t})\\
+& = -\frac{1}{2}y(t)+e^{-\frac{1}{2} t}(-3c_1\sin{3t} + 3c_2\cos{3t}). \\
 &\implies 8=-1+3c_2 \\ 
 &\implies c_2=3 \\
 \end{align}
 
-The solution is $y=e^{-\frac 12 t}(2\cos 3t + 3\sin 3t)$. The graph oscillates and decays to 0. 
+The solution is $y=e^{-\frac 12 t}(2\cos{3t} + 3\sin{3t})$. The graph oscillates and decays to 0 (decaying oscillation).
 
 **Example** Solve the equation $y''+9y=0$. 
 
-$\lambda=0, \mu=3$. So the general solution is $y=c_1\cos 3t + c_2\sin 3t$. The graph of the solution is like a sine wave. 
+$\lambda=0, \mu=3$. So the general solution is $y=c_1\cos{3t} + c_2\sin{3t}$. The graph of the solution is like a sine wave (steady oscillation). 
+
+### 3.4 Repeated Roots (Reduction of order)
+
+Consider $ay''+by'+cy=0$ and the characteristic equation: $ar^2+br+c=0$. If $\Delta=b^2-4ac=0$, we have repeated roots $r_{1,2}=-\frac{b}{2a}$. We still get one solution to the DE: $y=e^{-\frac{b}{2a}t}$. 
+
+We need to find another solution to the DE to get the general solution. We use **reduction of order**. 
+
+This method works for $y''+p(t)y'+q(t)y=0 (*)$. 
+
+1. We are given one solution $y_1$.
+2. We look for $y_2(t)=v(t)y_1(t)$.
+3. Put $y_2$ to $(*)$, and we will get an equation for $v(t)$ that can be reduced to a lower order. Solve for $v(t)$.
+
+**Example** Find the general solution of $y''-6y'+9y=0$. 
+
+Characteristic equation: $r^2-6r+9=0\implies r_{1,2}=3$.
+We get one solution $y_1(t)=e^{3t}$.
+
+Now we use reduction of order. We look for $y_2(t)=v(t)e^{3t}$.
+
+\begin{align}
+y_2'(t)&=v'(t)e^{3t}+3v(t)e^{3t}\\
+y_2''(t)&=v''(t)e^{3t}+6v'(t)e^{3t}+9v(t)e^{3t}
+\end{align}
+
+Plug $y_2$ into the DE:
+
+$$
+v''(t)e^{3t}+6v'(t)e^{3t}+9v(t)e^{3t}-6(v'(t)e^{3t}+3v(t)e^{3t})+9(v(t)e^{3t})=0
+$$
+
+\begin{align}
+v''(t)e^{3t}&=0\\
+v''(t)&=0\\
+v(t)&=Ct+D
+\end{align}
+
+Now we get $y_2(t)=(Ct+D)e^{3t} = Cte^{3t}+De^{3t}$. 
+
+Let's take $y_2=te^{3t}$. ($c_1=C, c_2=D+1$)
+
+To show that $y_1, y_2$ form a fundamental set of solutions, 
+
+$$W[y_1, y_2](t)=\begin{vmatrix}
+e^{3t} & te^{3t} \\
+3e^{3t} & e^{3t}+3te^{3t}\\
+\end{vmatrix} = e^{6t} \neq 0$$
+
+So the general solution is $y=c_1y_1+c_2y_2=c_1e^{3t}+c_2te^{3t}$.
+
+**Quick Summary of 3.1-3.4**
+
+Solving $ay''+by'+cy=0$. Characteristic equation: $ar^2+br+c=0$. 
+
+Case 1: $\Delta > 0$: two real distinct roots $r_1, r_2$. The general solution is $y=c_1e^{r_1t}+c_2e^{r_2t}$.
+
+Case 2: $\Delta < 0$: two complex distinct roots $r_1=\lambda+i\mu, r_2=\lambda-i\mu$. The general solution is $y=e^{\lambda t}(c_1 \cos \mu t + c_2 \sin \mu t)$.
+
+Case 3: $\Delta = 0$: two repeated roots $r_{1,2}=r$. General solution: $y(t)=c_1e^{rt}+c_2te^{rt}$.
+
+**Another example of reduction of order**
+
+**Example** Consider $2t^2y''+3ty-y=0 (t>0)$ (Euler's equation). Given that $y_1=\frac{1}{t}$ is a solution, find another solution using reduction of order. 
+
+We want to find $y_2(t)=\frac{v(t)}{t}$. 
+
+\begin{align}
+y_2'(t)&=v'(t)\frac1t+v(t)(-\frac1{t^2})\\
+y_2''(t)&=v''(t)\frac1t+v'(t)(-\frac1{t^2}) + v'(t)(-\frac1{t^2})+v(t)\frac{2}{t^3}\\
+&= v''(t)\frac1t-2v'(t)\frac{1}{t^2}+2v(t)\frac{1}{t^3}
+\end{align}
+
+Plug into the DE:
+
+$$
+2t^2(v''(t)\frac1t-2v'(t)\frac{1}{t^2}+2v(t)\frac{1}{t^3}) + 3t(v'(t)\frac1t-v(t)(\frac1{t^2}))-v(t)\frac1t=0\\
+2tv''(t)-4v'(t)+4v(t)\frac1t+3v'(t)-3v(t)\frac1t-v(t)\frac1t=0
+$$
+
+Terms with $v(t)$ should go away.
+
+$$2tv''(t)-v'(t)=0$$
+
+If we let $u(t)=v'(t)$,
+
+$$2tu'(t)-u(t)=0$$
+
+This is a first order linear DE, and also a separable equation.
+
+If $u\neq 0$,
+\begin{align}
+\frac{2du}{u}&=\frac{dt}{t}\\
+2\ln|u|&=\ln|t|+C\\
+u^2&=e^ct\\
+u&=\pm\sqrt{e^c t}=D\sqrt t, D\neq0\\
+\end{align}
+
+Check $u=0$ is a constant solution, so all the solutions are $u=D\sqrt t, D\in \mathbb{R}$.
+
+Next, 
+
+\begin{align}
+u(t)&=v'(t)\\
+\implies v'(t)&=D\sqrt t\\
+\implies v(t)&=\int D\sqrt t dt + C\\
+&=\tilde{D}t^{\frac32}+C
+\end{align}
+
+So the other solution 
+
+\begin{align}
+y_2(t)&=v(t)y_1(t)\\
+&=\tilde{D}t^{\frac32}+C\frac1t\\
+&=\tilde{D}t^{\frac12}+C\frac1t
+\end{align}
+
+A new solution is $y_2=t^{\frac12}$.
+
+
+
