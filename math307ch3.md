@@ -322,7 +322,7 @@ This is a first order linear DE, and also a separable equation.
 If $u\neq 0$,
 \begin{align}
 \frac{2du}{u}&=\frac{dt}{t}\\
-2\ln|u|&=\ln|t|+C\\
+2\ln\lvert u\rvert &=\ln\lvert t\rvert+C\\
 u^2&=e^ct\\
 u&=\pm\sqrt{e^c t}=D\sqrt t, D\neq0\\
 \end{align}
@@ -347,6 +347,3 @@ y_2(t)&=v(t)y_1(t)\\
 \end{align}
 
 A new solution is $y_2=t^{\frac12}$.
-
-
-
