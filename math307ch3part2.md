@@ -70,7 +70,7 @@ Step 3: General solution: $y=c_1e^{2t}+c_2te^{2t}+\frac t4 e^{2t}$.
 
 **Exercise** $y''+3y'-4y=4t-5e^{-4t}$. $y(0)=1, y'(0)=0$.
 
-## 3.7 Mechanical and electrical vibration
+### 3.7 Mechanical and electrical vibration
 
 **Free vibrations**
 
@@ -160,7 +160,7 @@ c_1&=0.2\\
 c_2&=0.5
 \end{cases}$$
 
-## 3.8 Forced Vibrations
+### 3.8 Forced Vibrations
 
 $$mu''+\gamma u' + ku = F(t)$$
 
@@ -330,3 +330,19 @@ Know the meaning of each parameter, and know how to find them in a problem. Get 
 **Example** A 1kg mass is attached to a spring. The spring constant is $k=25 kg/s$. The quasi-period is $\frac{2\pi}{3}$, find the damping constant. 
 
 Quasi period: $T=\frac{2\pi}{\mu}$, where $\mu={\sqrt{4mk-\gamma^2} \over 2m}$. Because $\mu = 3$, $m = 1$, $k = 25$, we know that $\gamma = 8$.
+
+### Wronskian, Fundamental Set of Solutions
+
+If $W[f,g]=t\cos t-\sin t$. Let $u=f+3g$, $v=f-g$. Find $W[u, v]$.
+
+\begin{align}
+W[u,v]&=(f+3g)(f'-g')-(f-g)(f'+3g')\\
+&=ff'-fg'+3gf'-3gg'-ff'-3fg'+gf'+3gg'\\
+&=-4(fg'-gf')\\
+&=-4W[f,g]\\
+&=-4t\cos t + 4\sin t
+\end{align}
+
+### Additional Exercise for Midterm 2
+
+Section 3.2: 19, 20, 24-27.
