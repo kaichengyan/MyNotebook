@@ -1,5 +1,5 @@
 
-### 6.4 Equations with Discontinuous Forcing Functions
+### 6.4 Equations with Discontinuous Forcing Functions$\newcommand{\Lap}{\mathcal{L}} \newcommand{\RR}{\mathbb R} \newcommand{\infint}{\int^\infty_0} \newcommand{\limint}{\lim_{A\to\infty}\int^A_0} \newcommand{\liminf}{\lim_{A\to\infty}}$
 
 Consider spring-mass system $mu''+\gamma u' + ku = F(t)$, when $F(t)$ is piecewise continuous. 
 
@@ -66,6 +66,95 @@ Partial fraction decomposition:
 
 ### Final Review
 
+#### Definition: $\Lap\{f(t)\}=\infint e^{-st}f(t)dt$.
 
+**Example** Show that if $c>0$, then $\Lap\{f(ct)\}=\frac 1c F(\frac sc)$. Here $F(s)=\Lap\{f(t)\}$.
 
-> Written with [StackEdit](https://stackedit.io/).
+Proof: Using change of variable, let $x=ct$.
+
+\begin{align}
+\Lap\{f(ct)\} &= \infint e^{-st}f(ct)dt \\
+&= \infint e^{-{sx \over c}}f(x)d\frac xc \\
+&= \frac 1c \infint e^{-{s\over c}x}f(x)dx \\
+&= \frac 1c F \Bigl(\frac sc\Bigr)
+\end{align}
+
+**Example** Show that $\Lap\{u_c(t)f(t-c)\}=e^{-cs}\Lap\{f(t)\}$.
+
+Proof: Let $x=t-c$. 
+
+\begin{align}
+\Lap\{u_c(t)f(t-c)\}&=\infint e^{-st}u_c(t)f(t-c)dt \\
+&= \int^\infty_c e^{-st}f(t-c)dt \\
+&= \infint e^{-s(x+c)} f(x) d(x+c) \\
+&= e^{-sc} \infint e^{-sx}f(x)dx \\
+&= e^{-sc} \Lap\{f(t)\}
+\end{align}
+
+Notice how the bounds of the integral change from $c$ to $0$.
+
+#### Know the Laplace transforms in the table
+
+Write on the notesheet. 
+
+#### Solve the Initial Value Problems
+
+$a''+by'+cy=g(t)$, $y(0)=y_0$, $y'(0)=y'_0$ and higher order equations. 
+
+$$\mathcal L\{f^{(n)}(t)\} = s^n\mathcal L \{f(t)\} - \sum^n_{i=1}s^{n-i}f^{(i - 1)}(0)$$
+
+#### Step functions and Translations
+
+* $\Lap\{u_c(t)f(t-c)\} = e^{-sc}\Lap\{f(t)\}$
+* $\Lap\{e^{ct}f(t)\} = F(s-c)$
+
+For $f(t)$, the translation is $g(t)=u_c(t)f(t-c)$. 
+
+**Example** Find $\Lap\{ u_{2\pi}(t) \cos t\}$.
+
+\begin{align}
+\Lap\{u_{2\pi}(t)\cos t\} &= \Lap\{u_{2\pi}(t)\cos(t-2\pi)\} \\
+&= e^{-2\pi s}\Lap\{\cos t\}\\
+&= e^{-2\pi s} {s \over s^2+1}
+\end{align}
+
+**Example** Find $\Lap\{u_5(t)\cos t\}$.
+
+\begin{align}
+\cos t &= \cos (t+5-5) \\
+\therefore \Lap\{u_5(t)\cos t\} &= e^{-5s}\Lap\{\cos(t+5)\}\\
+&= e^{-5s} \Lap\{\cos5\cos t - \sin 5 \sin t\} \\
+&= e^{-5s} \cos 5 \Lap\{\cos t\} - e^{-5s}\sin 5 \Lap\{\sin t\}
+\end{align}
+
+#### Another useful property (Sec 6.2 #29)
+
+$F(s)=\infint f(t)e^{-st}dt$. Show that $F'(s)=\Lap\{(-t)f(t)\}$.
+
+Proof: Assume we can exchange the derivative and the integral. 
+
+\begin{align}
+F'(s)=\infint (-t)e^{-st}f(t)dt=\Lap\{(-t)f(t)\}
+\end{align}
+
+Similarly, $F^{(n)}(s)=\Lap\{(-t)^n f(t)\}$.
+
+**Example** Find the Laplace transform of $t\sin t$. 
+
+\begin{align}
+\because \Lap\{\sin t\} &= {1 \over s^2 + 1} \\
+\therefore \Lap\{t\sin t\} &= - \Lap\{(-t)\sin t\}\\
+&= - {d \over ds} {1 \over s^2 + 1} \\
+&= {2s \over (s^2+1)^2}
+\end{align}
+
+**Example** Find $\Lap\{t^ne^{at}\}$. 
+
+\begin{align}
+\Lap \{t^n e^{at}\} &= (-1)^n\Lap\{(-t)^ne^{at}\}\\
+&= (-1)^n {d^n \over ds^n} ({1 \over s-a}) \\
+&= {n! \over(s-1)^{n+1}}
+\end{align}
+
+#### Review for Chapter 2, 3
+
